@@ -1,0 +1,116 @@
+/*
+Name: TemaWP
+Author: Alexis Fuentes
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,100);
+
+body{
+    background-image: url(img/patron.png);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos generales */
+a{
+    color: #0f9f3f;
+    text-decoration: none;
+}
+.content{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+img, video, audio{
+    width: 100%;
+}
+
+/* Header */
+header{
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#name, 
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+    width: 22%;
+}
+.menu{
+    text-align: right;
+    width: 77%;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 1.7em;
+    vertical-align: middle;
+}
+.menu ul li a{
+    border-bottom: solid 3px rgba(255, 255, 255, 0);
+    padding: 0.3em 0.5em;
+    display: block
+}
+.menu ul li a:hover{
+    border-bottom: solid 3px #09aaa4;
+}
+.active{
+    border-bottom: solid 3px #09aaa4;
+}
+#menu-secundario{
+    background-color: #087470;
+    width: 100%;
+}
+#menu-secundario .menu{
+    text-align: left;
+}
+#menu-secundario .menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu-secundario .menu ul li{
+    margin: 0 1.5em 0 0;
+}
+#menu-secundario .menu ul li a{
+    color: white;
+    border: none;
+    display: block;
+    padding: 0.8em 0;
+}
+#menu-secundario #busquedas{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 22%;
+}
+
+/* Cuerpo principal */
+#main, #sidebar{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 80%;
+}
+.post{
+    background-color: #fff;
+    border: solid 1px #adadad;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #d1d1d1;
+    display: inline-block;
+    margin: 1em 2%;
+    vertical-align: top;
+    width: 45%;
+}
+#sidebar{
+    text-align: left;
+    width: 20%;
+}
+
+/* Footer */
+footer{
+    color: #fff;
+    background-color: #848484;
+    width: 100%;
+}
